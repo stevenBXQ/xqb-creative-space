@@ -494,128 +494,13 @@ figcaption {
   box-shadow: 0 2px 5px rgba(0, 0, 0, .2), 0 -2px 5px rgba(0, 0, 0, .2);
 }
 
-.background-video {
-  position: absolute;
-}
-
-.background-video-2 {
-  position: fixed;
-}
-
-.background-video-3 {
-  position: -webkit-sticky;
-  position: sticky;
-}
-
-.background-video-4 {
-  position: relative;
-}
-
-.background-video-5 {
-  position: absolute;
-}
-
-.background-video-6, .background-video-7 {
-  background-color: #684f4f;
-}
-
-.background-video-8 {
-  background-color: #492020;
-}
-
-.background-video-9 {
-  background-color: #461d1d;
-}
-
-.background-video-10, .background-video-11 {
-  background-color: #2a0909;
-}
-
-.background-video-12 {
-  background-color: #250808;
-}
-
-.background-video-13 {
-  background-color: #1a0505;
-}
-
-.background-video-14 {
-  background-color: #180404;
-}
-
-.background-video-15 {
-  background-color: #160404;
-}
-
-.background-video-16 {
-  background-color: #906464;
-}
-
-.background-video-17, .background-video-18 {
-  background-color: #f5f5f5;
-}
-
-.background-video-19 {
-  background-color: #a88484;
-}
-
-.background-video-20 {
-  background-color: #462020;
-}
-
-.background-video-21 {
-  background-color: #441f1f;
-}
-
-.background-video-22 {
-  background-color: #240c0c;
-}
-
-.background-video-23, .background-video-24 {
-  background-color: #0f0404;
-}
-
-.background-video-25, .background-video-26, .background-video-27 {
-  background-color: #503b3b;
-}
-
-.background-video-28 {
-  background-color: #2b0909;
-}
-
-.background-video-29 {
-  background-color: #250606;
-}
-
-.background-video-30, .background-video-31, .background-video-32, .background-video-33 {
-  background-color: #240606;
-}
-
-.background-video-34, .background-video-35, .background-video-36, .background-video-37 {
-  background-color: #220505;
-}
-
-.background-video-38, .background-video-39, .background-video-40 {
-  background-color: #240606;
-}
-
 .background {
   z-index: -2;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-  background-image: url('../images/Screenshot-2023-07-14-at-7.09.05-PM.png');
-  background-position: 0 0;
-  background-size: cover;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-columns: 1fr;
-  display: block;
-  position: fixed;
+  position: fixed !important;
   top: 0%;
   bottom: 0%;
   left: 0%;
   right: 0%;
-  overflow: visible;
 }
 
 .heading {
@@ -638,25 +523,6 @@ figcaption {
 
 .bold-text {
   text-shadow: 0 5px 5px rgba(0, 0, 0, .2);
-}
-
-.background-copy {
-  z-index: -2;
-  grid-column-gap: 16px;
-  grid-row-gap: 16px;
-  background-image: url('../images/Screenshot-2023-07-14-at-7.09.05-PM.png');
-  background-position: 0 0;
-  background-size: cover;
-  grid-template-rows: auto auto;
-  grid-template-columns: 1fr 1fr;
-  grid-auto-columns: 1fr;
-  display: block;
-  position: fixed;
-  top: 0%;
-  bottom: 0%;
-  left: 0%;
-  right: 0%;
-  overflow: visible;
 }
 
 .background-cover {
