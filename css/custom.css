@@ -1,0 +1,21 @@
+.mapboxgl-ctrl-top-left {
+    visibility: hidden;
+}
+
+.mapboxgl-ctrl-top-right {
+    visibility: hidden;
+}
+
+.mapboxgl-ctrl-bottom-left {
+    left: auto !important;
+    right: 1% !important;
+    opacity: 0.2;
+}
+
+.mapboxgl-ctrl-bottom-right {
+    visibility: hidden;
+}
+
+.nav-link {
+    color: #8b8b8b;
+}
