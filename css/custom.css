@@ -20,6 +20,7 @@
     color: #8b8b8b;
 }
 
-body {
-    width: 100%;
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
 }

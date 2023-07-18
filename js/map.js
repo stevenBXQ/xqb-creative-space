@@ -5,8 +5,9 @@ const map = new mapboxgl.Map({
   style: "mapbox://styles/whichsteven/clk3dched004x01pqg2uv87y0", // style URL
   center: [-122.30728694154617, 47.655552182760125], // starting position [lng, lat]
   zoom: 1, // starting zoom
-  projection: 'globe'
-
+  projection: 'globe',
+  interactive: false,
+  useWebGL2: true,
 });
 
 map.on('style.load', () => {
