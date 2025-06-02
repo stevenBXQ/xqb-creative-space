@@ -31,6 +31,28 @@ job_torc.addEventListener("mouseenter", (event) => {
   });
 });
 
+const job_torc_1 = document.getElementById("job_torc_1");
+
+job_torc_1.addEventListener("mouseenter", (event) => {
+  map.flyTo({
+    center: [-80.3923385938034, 37.18948135807281],
+    zoom: 5,
+    // minZoom: 5,
+    speed: 1.0,
+  });
+});
+
+const job_torc_0 = document.getElementById("job_torc_0");
+
+job_torc_0.addEventListener("mouseenter", (event) => {
+  map.flyTo({
+    center: [-80.3923385938034, 37.18948135807281],
+    zoom: 5,
+    // minZoom: 5,
+    speed: 1.0,
+  });
+});
+
 const job_nokia = document.getElementById("job_nokia");
 
 job_nokia.addEventListener("mouseenter", (event) => {
